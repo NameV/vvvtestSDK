@@ -27,10 +27,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6F9E2BEB74BFAB534CD9BBFC /* Pods_vvvtestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vvvtestSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A425F842C5C4BF02E3100377 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A425F842C5C4BF02E3100377 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B21DFBE033994948F393F96E /* Pods-vvvtestSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvvtestSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-vvvtestSDK_Tests/Pods-vvvtestSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EEBC7133658EC8F19CDF2A90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F7AAD4EA4FB8293B2E8D34FB /* vvvtestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = vvvtestSDK.podspec; path = ../vvvtestSDK.podspec; sourceTree = "<group>"; };
+		EEBC7133658EC8F19CDF2A90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F7AAD4EA4FB8293B2E8D34FB /* vvvtestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = vvvtestSDK.podspec; path = ../vvvtestSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				B21DFBE033994948F393F96E /* Pods-vvvtestSDK_Tests.debug.xcconfig */,
 				12AE67797DA719B03634E0F9 /* Pods-vvvtestSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

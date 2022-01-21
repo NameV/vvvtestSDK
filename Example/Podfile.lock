@@ -1,0 +1,16 @@
+PODS:
+  - vvvtestSDK (0.1.0)
+
+DEPENDENCIES:
+  - vvvtestSDK (from `../`)
+
+EXTERNAL SOURCES:
+  vvvtestSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  vvvtestSDK: b31117c72f35a7d1d8e3322f4536d1b3a36975a3
+
+PODFILE CHECKSUM: 03fe0058579b86a8430f8e964c279bd98e4ca313
+
+COCOAPODS: 1.10.1

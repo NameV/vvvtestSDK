@@ -1,0 +1,6 @@
+framework module vvvtestSDK {
+  umbrella header "vvvtestSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
