@@ -1,0 +1,6 @@
+use_frameworks!
+target 'vvvtestSDK_Tests' do
+  pod 'vvvtestSDK', :path => '../'
+  
+  
+end
