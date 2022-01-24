@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'vvvtestSDK'
-  s.version          = '0.2.0'
+  s.version          = '0.6.0'
   s.summary          = 'A short description of vvvtestSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'vvvtestSDK/Classes/**/*'
+  s.ios.vendored_frameworks = 'vvvtestSDK/Classes/QySdk.framework'
   
   # s.resource_bundles = {
   #   'vvvtestSDK' => ['vvvtestSDK/Assets/*.png']
