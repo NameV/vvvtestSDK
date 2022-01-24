@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0ED46FC9EC54A3887BE09F6730E9EFD4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 257F3D5ED726B06B744730BB4F0A6350 /* ReplaceMe.m */; };
 		185D4978412F088423EFE45C8ED8CF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4021C168279E88D400D88B7C /* QySdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4021C167279E88D400D88B7C /* QySdk.framework */; };
 		5233AD0DE69100751CEB6AAA0FEF9740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		55B97A4A9FC94F346C02D685CDA31D81 /* vvvtestSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F0DCB5E59B8555E85AB242F198E041 /* vvvtestSDK-dummy.m */; };
 		A6CE29D69232844B12F26605AFEB4146 /* Pods-vvvtestSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFEF10E2EEC83B978FF009F9A4BF650 /* Pods-vvvtestSDK_Tests-dummy.m */; };
@@ -33,20 +34,21 @@
 		1EC80158C17779F2F3CAEA2E663774F8 /* vvvtestSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = vvvtestSDK.modulemap; sourceTree = "<group>"; };
 		257F3D5ED726B06B744730BB4F0A6350 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = vvvtestSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		35E4E458D8D88FE2942EFC76D32CEC54 /* Pods-vvvtestSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vvvtestSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3BB8F5C908B353590928991C11629270 /* vvvtestSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = vvvtestSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3BB8F5C908B353590928991C11629270 /* vvvtestSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = vvvtestSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4021C167279E88D400D88B7C /* QySdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QySdk.framework; sourceTree = "<group>"; };
 		48D34A2BC04D43F8B4A784BA1EF2FB0A /* vvvtestSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vvvtestSDK-umbrella.h"; sourceTree = "<group>"; };
-		50870ABFE394F8A1D266020305E58706 /* Pods_vvvtestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_vvvtestSDK_Tests.framework; path = "Pods-vvvtestSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50870ABFE394F8A1D266020305E58706 /* Pods_vvvtestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vvvtestSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F0DCB5E59B8555E85AB242F198E041 /* vvvtestSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vvvtestSDK-dummy.m"; sourceTree = "<group>"; };
 		649F142802A654B943CF8C7C3D080354 /* vvvtestSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "vvvtestSDK-Info.plist"; sourceTree = "<group>"; };
-		6E70DFCC10F10666D25879100DA5E930 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6E70DFCC10F10666D25879100DA5E930 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BCF46157674083A380E124CA806B2A8 /* vvvtestSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vvvtestSDK-prefix.pch"; sourceTree = "<group>"; };
 		8116915CC471E0A5600FA5E8FFBBEDDD /* Pods-vvvtestSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vvvtestSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		818A2FA245A8D0CEBF0BCEEB7095BA0B /* Pods-vvvtestSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vvvtestSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD2EA0B4D57FE99E678B19B1B8AF1182 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD2EA0B4D57FE99E678B19B1B8AF1182 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B8A5478F2DD6CDC3CA946216221827E7 /* Pods-vvvtestSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vvvtestSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BCDDDB81956608BC6EDCE2C75827D516 /* vvvtestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = vvvtestSDK.framework; path = vvvtestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDDDB81956608BC6EDCE2C75827D516 /* vvvtestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = vvvtestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF748C0DF912317A15204E3216141C2 /* vvvtestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vvvtestSDK.release.xcconfig; sourceTree = "<group>"; };
 		E439993592A70622608A45770B8E5033 /* Pods-vvvtestSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vvvtestSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECFEF10E2EEC83B978FF009F9A4BF650 /* Pods-vvvtestSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vvvtestSDK_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5233AD0DE69100751CEB6AAA0FEF9740 /* Foundation.framework in Frameworks */,
+				4021C168279E88D400D88B7C /* QySdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +119,7 @@
 		5EBF4222DDD340DD05E50098012170E2 /* vvvtestSDK */ = {
 			isa = PBXGroup;
 			children = (
+				4021C167279E88D400D88B7C /* QySdk.framework */,
 				257F3D5ED726B06B744730BB4F0A6350 /* ReplaceMe.m */,
 				C4999E0AE80EBFF9D1E29DB7F46D610A /* Pod */,
 				40EE19C3C2DE2F108010BCDF580F2101 /* Support Files */,
@@ -400,8 +404,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
